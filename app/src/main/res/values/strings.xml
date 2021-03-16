@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FourQuiz_Game</string>
+    <string name="btnStart">ゲームスタート</string>
+    <string name="txtTitle">クイズゲーム</string>
+    <string name="btnScore">スコア</string>
+    <string name="Titlebtn">タイトルに戻る</string>
+    <string name="nextBtn">次へ</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    android:orientation="vertical"
+    tools:context=".PlayActivity">
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="あと●門"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="question"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/ansBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:onClick="onButton"
+        android:text="ans1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/ansBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="onButton"
+        android:text="ans2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/ansBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="onButton"
+        android:text="ans3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/ansBtn4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="onButton"
+        android:text="ans4"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="onNext"
+        android:text="@string/nextBtn" />
+
+    <Button
+        android:id="@+id/titleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginTop="0dp"
+        android:onClick="onTitle"
+        android:text="@string/Titlebtn" />
+
+</LinearLayout>
